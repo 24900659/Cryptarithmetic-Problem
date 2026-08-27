@@ -36,7 +36,7 @@ Begin<br>
    for each letter i from right to left of word1, do<br>
       ch := word1[i]<br>
       for all elements j in the nodeList, do<br>
-         if nodeList[j].letter = ch, then<br>
+         if nodeList[j].letter = ch, then<br> 
             break<br>
       done<br>
       val1 := val1 + (m * nodeList[j].value)<br>
